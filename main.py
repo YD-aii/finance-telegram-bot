@@ -1,7 +1,7 @@
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ConversationHandler
 import database as db
-from last_version.config import BOT_TOKEN
+from config import BOT_TOKEN
 
 from database import is_user_registered, register_user
 from config import AUTH_CODE
